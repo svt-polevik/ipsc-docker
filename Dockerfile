@@ -1,4 +1,4 @@
-FROM debian:bookwork-slim
+FROM debian:bookworm-slim
 
 RUN set -ex \
     && sed -i -- 's/# deb-src/deb-src/g' /etc/apt/sources.list \
