@@ -1,8 +1,8 @@
 spec:
-  name: sample-dockerfile
+  name: signalerr-dockerfile
   services:
   - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-dockerfile.git
-    name: sample-dockerfile
+      repo_clone_url: https://github.com/svt-polevik/signal-docker
+    name: sigle-dockerfile
