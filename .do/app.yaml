@@ -1,8 +1,8 @@
-name: sample-dockerfile
+name: signal-dockerfile
 services:
 - dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-dockerfile
-  name: sample-dockerfile
+    repo: svt-polevik/signal-docker
+  name: signal-dockerfile
