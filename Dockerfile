@@ -6,6 +6,7 @@ RUN set -ex \
     && apt-get install -y --no-install-recommends \
                build-essential \
                cdbs \
+               curl \
                devscripts \
                equivs \
                fakeroot \
