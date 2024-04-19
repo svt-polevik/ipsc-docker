@@ -1,8 +1,8 @@
-name: signal-dockerfile
+name: ipsc-dockerfile
 services:
 - dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: svt-polevik/signal-docker
-  name: signal-dockerfile
+    repo: svt-polevik/ipsc-docker
+  name: ipsc-dockerfile
