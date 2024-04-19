@@ -4,5 +4,5 @@ spec:
   - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/svt-polevik/signal-docker
-    name: sigle-dockerfile
+      repo_clone_url: https://github.com/svt-polevik/ipsc-docker
+    name: ipsc-dockerfile
