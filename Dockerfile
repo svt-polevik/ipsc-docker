@@ -6,4 +6,4 @@ RUN apt-get update \
                python3 \
     && apt-get clean \
     && rm -rf /tmp/* /var/tmp/*
-RUN python3
+RUN /bin/bash
